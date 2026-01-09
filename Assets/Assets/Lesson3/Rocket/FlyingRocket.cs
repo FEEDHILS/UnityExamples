@@ -22,6 +22,7 @@ public class FlyingRocket : MonoBehaviour
             yield return new WaitForFixedUpdate();
         }
     }
+    
     IEnumerator Detonate()
     {
         yield return new WaitForSeconds(detonationTime);
